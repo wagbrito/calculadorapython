@@ -33,3 +33,33 @@ if operacao == 1:
     n = n1 - n2
     print()
     print('O valor da subtração é {:.1f}'.format(n))
+
+#Multiplicação
+if operacao == 2:
+    print('*** A operação escolhida foi Multiplicação (*) ***')
+    print()
+    n1 = float(input('Digite o primeiro valor: '))
+    n2 = float(input('Digite o segundo valor: '))
+    n = n1 * n2
+    print()
+    print('O valor da multiplicação é {:.1f}'.format(n))
+
+#Divisão
+if operacao == 3:
+    print('*** A operação escolhida foi Divisão (*) ***')
+    print()
+    n1 = float(input('Digite o primeiro valor: '))
+    n2 = float(input('Digite o segundo valor: '))
+    n = n1 / n2
+    print()
+    print('O valor da divisão é {:.1f}'.format(n))
+
+#Exponenciação
+if operacao == 4:
+    print('*** A operação escolhida foi Exponenciação (**) ***')
+    print()
+    n1 = float(input('Digite o primeiro valor: '))
+    n2 = float(input('Digite o segundo valor: '))
+    n = n1 ** n2
+    print()
+    print('O valor da exponenciação é {:.1f}'.format(n))      
