@@ -79,5 +79,5 @@ while True:
             print('Opção inválida, deve ser S ou N')
         else:
             break
-        if opcao == 'N':
-            break        
+    if opcao == 'N':
+        break        
